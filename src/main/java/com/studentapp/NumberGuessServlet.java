@@ -44,4 +44,9 @@ public class NumberGuessServlet extends HttpServlet {
         }
         out.println("<a href='guess'>Play Again</a>");
     }
+
+    // Add this method to expose the target number for testing
+    public int getTargetNumber() {
+        return targetNumber;
+    }
 }
