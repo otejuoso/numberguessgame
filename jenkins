@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         APP_NAME = "NumberGuessGame-1.0-SNAPSHOT"
-        TOMCAT_HOST = "54.242.198.167"
+        TOMCAT_HOST = "54.147.11.33"
         TOMCAT_USER = "admin"
         TOMCAT_PASS = "YourSecurePassword"
     }
@@ -11,9 +11,9 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git branch: 'ja', 
-                    credentialsId: '0bd8116c-ce8b-4458-a471-c6a76777a934', 
-                    url: 'https://github.com/wbrymo/NumberGuessGame.git'
+                git branch: 'main', 
+                    credentialsId: '446646e8-c9e9-4505-ab97-372912e4b91a', 
+                    url: 'https://github.com/otejuoso/numberguessgame.git'
             }
         }
 
