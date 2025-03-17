@@ -75,5 +75,3 @@ pipeline {
         }
     }
 }
-pipeline.txt
-Displaying pipeline.txt. 
